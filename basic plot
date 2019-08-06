@@ -1,0 +1,22 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+sns.set_style("whitegrid")
+wc = pd.read_csv("wimbledons_champions.csv")
+
+f, ax = plt.subplots(figsize=(9.5, 5.5))
+fig4a=sns.scatterplot(x="Champion Nationality", y="Year",
+                color="green",
+                data=wc)
+fig4a
+
+wc["Runner-up Nationality"] = wc["Runner-up Nationality"].fillna(wc["Runner-up Nationality (Men's)"])
+wc["Runner-up"] = wc["Runner-up"].fillna(wc["Runner-Up"])
+
+wc1=pd.DataFrame({"Gender":wc["Gender"],"Nationality":wc["Champion Nationality"],"Ranking":"Champion"})
+wc2=pd.DataFrame({"Gender":wc["Gender"],"Nationality":wc["Runner-up Nationality"],"Ranking":"Runner-up"})
+wc4b=pd.concat([wc1,wc2])
+g = sns.FacetGrid(wc4b, col="Gender", row="Ranking",height=4,aspect=1.5,sharex=False)
+g.map(sns.countplot,"Nationality")
+
+plt.show()
+plt.savefig("wc4b.png") 
