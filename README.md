@@ -4,7 +4,8 @@
 
 This file contains my projects on data visualization.
 
-Programming language: Python
+Programming language: Python(plotly,seaborn,folium...)
+
 Software: Tableau Graphviz
 
 basic plot
