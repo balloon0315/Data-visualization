@@ -2,7 +2,7 @@
 
 #update
 
-This file contains projects on data visualization.
+This file contains my projects on data visualization.
 
 Programming language: Python
 Software: Tableau Graphviz
