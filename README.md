@@ -27,7 +27,7 @@ The dataset is available in the sample data in Tableau.
 Below showed the 2019 Women’s World Cup Bracket. <br/>
 The reference can be found here: https://www.fifa.com/womensworldcup/matches/
 
-![2019 Women’s World Cup Bracket](https://github.com/balloon0315/Data-visualization-Portfolio/blob/master/Graphviz/Figure2graphviz-1.jpg)
+![2019 Women’s World Cup Bracket](https://github.com/balloon0315/Data-visualization-Portfolio/blob/master/Graphviz/Figure2graphviz-1.jpg)&s=500
 
 
 
