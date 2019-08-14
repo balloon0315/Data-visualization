@@ -12,4 +12,4 @@ basic plot
 geo map
 text visualization.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Tableau Image](https://github.com/balloon0315/data-visualization/blob/master/Dashboard%201.png?raw=true)
