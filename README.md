@@ -18,6 +18,12 @@ From entry to be HIGHER level .<br/>
 
 **Basic plot by using Matplotlib**
 
+
+
+
+
+
+
 Since some plots are interactive they can be best viewed using the link below:
 
 **Introduction to data visualization using Plotly and Matplotlib :** 
