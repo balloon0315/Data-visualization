@@ -14,6 +14,10 @@ From entry to be HIGHER level .<br/>
 
 
 ### Python
+
+
+**Basic plot by using Matplotlib**
+
 Since some plots are interactive they can be best viewed using the link below:
 
 **Introduction to data visualization using Plotly and Matplotlib :** 
@@ -34,7 +38,6 @@ Since some plots are interactive they can be best viewed using the link below:
 [Link Page](https://nbviewer.jupyter.org/github/balloon0315/Data-visualization-Portfolio/blob/master/social%20media%20sentimental%20analysis%20using%20Plotly%20.ipynb)<br/>
 - Using social media API to get the information we need. text visualization and network visualization can be used in this.
 
-**Basic plot by using Matplotlib**
 
 
 
